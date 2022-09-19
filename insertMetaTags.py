@@ -66,7 +66,7 @@ def getTextFromTranslations(id):
 
 def getScreenshotUrl(url):
     parsedUri = urlparse(url)
-    return parsedUri.scheme + "//" + parsedUri.netloc + path.dirname(parsedUri.path) + "/" + SCREENSHOT_URL_PART
+    return parsedUri.scheme + "://" + parsedUri.netloc + path.dirname(parsedUri.path) + "/" + SCREENSHOT_URL_PART
 
 
 # window.location.host = netloc = domain
