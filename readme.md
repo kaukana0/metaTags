@@ -11,7 +11,8 @@ argument for "insertMetaTags.py".
 
 insertMetaTags.py takes all other information by direct file access (e.g. translations, screenshot image dimensions).
 
-If you don't agree with the suggested dir-structure, there's 4 variables at the top in the file that can be adapted.
+Using this implicitly agrees with some suggested dir-structure of the code.
+There's 4 variables at the top of the file that can be adapted to a different dir-structure.
 
 Note:
 insertMetaTags.py can be run anywhere there's python3 - that could be the development environment as well as the production environment.
